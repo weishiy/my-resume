@@ -1,8 +1,30 @@
-# React + Vite
+# Responsive Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive portfolio website built using React, CSS, and Figma. The project is based on a tutorial from YouTube.
 
-Currently, two official plugins are available:
+You can watch the tutorial here: [Learn How to Build a Responsive Portfolio Website from Scratch using React, CSS, and Figma!](https://www.youtube.com/watch?v=video_id)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## .gitignore
+
+```text
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Mac OS files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
