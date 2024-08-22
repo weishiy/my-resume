@@ -12,19 +12,19 @@ export const Contact = () => {
       </div>zz
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">myemail@email.com</a>
+          <img src={getImageUrl("contact/email.png")} alt="Email icon" />
+          <a href="mailto:shiyan3114@gmail.com">shiyan3114@email.com</a>
         </li>
         <li className={styles.link}>
           <img
-            src={getImageUrl("contact/linkedinIcon.png")}
+            src={getImageUrl("contact/linkedin.png")}
             alt="LinkedIn icon"
           />
-          <a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
+          <a href="www.linkedin.com/in/weishiy">linkedin.com/weishiy</a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
+          <img src={getImageUrl("contact/github-logo.png")} alt="Github icon" />
+          <a href="https://github.com/weishiy">github.com/weishiy</a>
         </li>
       </ul>
     </footer>

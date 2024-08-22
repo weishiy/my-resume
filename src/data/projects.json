@@ -1,26 +1,66 @@
 [
-    {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    }
-  ]
+  {
+    "title": "Music Guru",
+    "imageSrc": "projects/project.png",
+    "description": "Built a Java app for music recommendations and playlist management using AWS and Docker.",
+    "skills": ["Java", "AWS"],
+    "demo": "https://www.example.com/music_guru_demo",
+    "source": "https://github.com/weishiy/MusicGuru"
+  },
+  {
+    "title": "Chip-Challenge Game",
+    "imageSrc": "projects/project.png",
+    "description": "Created a puzzle game with OOP design and team collaboration.",
+    "skills": ["Java", "OOP", "Design Patterns"],
+    "demo": "https://www.example.com/chip_challenge_game_demo",
+    "source": "https://github.com/weishiy/chip_challenge"
+  },
+  {
+    "title": "Library System",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a system to manage books, authors, and customers.",
+    "skills": ["Java", "PostgreSQL", "JDBC"],
+    "demo": "https://www.example.com/library_system_demo",
+    "source": "https://github.com/weishiy/Library_management_system"
+  },
+  {
+    "title": "RobbersGang Database",
+    "imageSrc": "projects/project.png",
+    "description": "Created a database for managing data on bank robberies and gangs.",
+    "skills": ["SQL", "Database Design", "Data Analysis"],
+    "demo": "https://www.example.com/robbersgang_database_demo",
+    "source": "https://www.github.com/weishiy/robbersgang_database"
+  },
+  {
+    "title": "Flatmates Expense Manager",
+    "imageSrc": "projects/project.png",
+    "description": "Designed a prototype app to manage flatmate expenses.",
+    "skills": ["Figma", "Prototyping", "User Testing"],
+    "demo": "https://www.example.com/flatmates_expense_manager_demo",
+    "source": "https://www.github.com/weishiy/flatmates_expense_manager"
+  },
+  {
+    "title": "Vaccine Predictor",
+    "imageSrc": "projects/project.png",
+    "description": "Built a model for predicting H1N1 vaccine uptake with high accuracy.",
+    "skills": ["Python", "R", "Scikit-learn"],
+    "demo": "https://www.example.com/vaccine_predictor_demo",
+    "source": "https://github.com/weishiy/Predicting-H1N1-Vaccination-Probabilities"
+  },
+  {
+    "title": "Fruit Classifier",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a deep learning model to classify fruit images.",
+    "skills": ["Python", "CNN", "Deep Learning"],
+    "demo": "https://www.example.com/fruit_classifier_demo",
+    "source": "https://www.github.com/weishiy/fruit_classifier"
+  },
+  {
+    "title": "Linguistic Analysis",
+    "imageSrc": "projects/project.png",
+    "description": "Performed NLP to analyze and uncover linguistic patterns in text.",
+    "skills": ["Python", "NLP", "Text Analysis"],
+    "demo": "https://www.example.com/linguistic_analysis_demo",
+    "source": "https://www.github.com/weishiy/linguistic_analysis"
+  }
+]

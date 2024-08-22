@@ -1,29 +1,26 @@
 [
     {
-      "role": "Software Engineer",
-      "organisation": "Google",
-      "startDate": "Sept, 2022",
+      "role": "CITA Volunteer",
+      "organisation": "CITA Association",
+      "startDate": "2023",
       "endDate": "Present",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "imageSrc": "history/google.png"
+      "experiences": ["Coordinated mentorship activities", "Arranged meetings and managed groups", "Collected feedback to improve the program"],
+      "imageSrc": "history/Cita.png"
     },
     {
-      "role": "UI Designer",
-      "organisation": "Mirosoft",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "history/microsoft.png"
+      "role": "SPCA Volunteer",
+      "organisation": "SPCA",
+      "startDate": "2022",
+      "endDate": "2022",
+      "experiences": ["Participated in fundraising events", "Raised funds and increased community awareness"],
+      "imageSrc": "history/spca.png"
     },
     {
-      "role": "SWE Intern",
-      "organisation": "Netflix",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
-      "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
-      ],
-      "imageSrc": "history/netflix.png"
+      "role": "Staff",
+      "organisation": "Sukura Sushi Shop",
+      "startDate": "2020",
+      "endDate": "2021",
+      "experiences": ["Assisted customers and managed daily operations", "Enhanced customer satisfaction and teamwork"],
+      "imageSrc": "history/sakura.png"
     }
   ]
