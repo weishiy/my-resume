@@ -5,9 +5,13 @@
     <link rel="icon" type="image/png" href="/myIcon_1-modified.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <script type="module">
+      if (import.meta.env.MODE === 'development') {
+        import('/src/main.jsx');
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
