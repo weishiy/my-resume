@@ -24,12 +24,12 @@
     "source": "https://github.com/weishiy/Library_management_system"
   },
   {
-    "title": "RobbersGang Database",
+    "title": "My Personal Resume",
     "imageSrc": "projects/project.png",
-    "description": "Created a database for managing data on bank robberies and gangs.",
-    "skills": ["SQL", "Database Design", "Data Analysis"],
-    "demo": "https://www.example.com/robbersgang_database_demo",
-    "source": "https://www.github.com/weishiy/robbersgang_database"
+    "description": "Developed and deployed a personal resume website using React and Vite, featuring sections for projects, skills, experience, and contact.",
+    "skills": ["React", "CSS", "Vite", "GitHub Pages"],
+    "demo": "https://weishiy.github.io/my-resume/",
+    "source": "https://github.com/weishiy/my-resume"
   },
   {
     "title": "Flatmates Expense Manager",
