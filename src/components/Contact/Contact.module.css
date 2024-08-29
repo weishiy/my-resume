@@ -12,7 +12,7 @@
   gap: 10px;
 }
 
-.text h2 {
+/* .text h2 {
   font-size: 80px;
   font-weight: 700;
   letter-spacing: 4px;
@@ -22,6 +22,18 @@
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 2px;
+} */
+
+.text h2 {
+  font-size: 5rem; 
+  font-weight: 700;
+  letter-spacing: 0.25rem; 
+}
+
+.text p {
+  font-size: 2.5rem; 
+  font-weight: 400;
+  letter-spacing: 0.125rem; 
 }
 
 .links {
@@ -38,12 +50,20 @@
   gap: 25px;
 }
 
-.link a {
+/* .link a {
   color: var(--color-text);
   text-decoration: none;
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+} */
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 2rem; 
+  font-weight: 400;
+  letter-spacing: 0.1rem; 
 }
 
 @media screen and (max-width: 830px) {
@@ -56,6 +76,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .text h2 {
+    font-size: 3rem; 
+  }
+
+  .text p {
+    font-size: 1.5rem; 
+  }
+
+  .link a {
+    font-size: 1.5rem; 
   }
 
   .links {

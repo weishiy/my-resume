@@ -9,7 +9,7 @@ export const Contact = () => {
       <div className={styles.text}>
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>
-      </div>zz
+      </div>
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/email.png")} alt="Email icon" />
