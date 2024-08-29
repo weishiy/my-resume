@@ -19,7 +19,7 @@ You can watch the tutorial here: [YouTube Tutorial Link](https://www.youtube.com
 
 ## Deployment
 
-The website is deployed on GitHub Pages. Only the Vite-generated `dist` folder content is pushed for deployment, which is slightly different from the approach shown in the tutorial.
+The website is deployed on GitHub Pages using the b1 branch. Only the Vite-generated dist folder content is pushed to the b1 branch for deployment, which is slightly different from the approach shown in the tutorial.
 
 ## Author
 
