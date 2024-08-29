@@ -25,8 +25,8 @@
 } */
 
 .text h2 {
-  font-size: 5rem; 
-  font-weight: 700;
+  font-size: 4rem; 
+  font-weight: 600;
   letter-spacing: 0.25rem; 
 }
 
@@ -46,8 +46,13 @@
 
 .link {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 25px;
+}
+
+.link img {
+  width: 2rem;  
+  height: auto; 
 }
 
 /* .link a {
@@ -75,7 +80,7 @@
   .text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .text h2 {
@@ -86,11 +91,15 @@
     font-size: 1.5rem; 
   }
 
+  .link img {
+    width: 1.5rem; 
+  }
+
   .link a {
     font-size: 1.5rem; 
   }
 
   .links {
-    align-items: center;
+    align-items: flex-start;
   }
 }

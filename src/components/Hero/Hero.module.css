@@ -40,7 +40,20 @@
   font-family: var(--font-roboto);
   margin-bottom: 52px;
   line-height: 1.5; 
+  max-height: 200px;
+  overflow-y: auto;           
+  overflow-x: hidden;         
+  width: 100%;                
+  word-wrap: break-word;      
+  word-break: break-word;     
+  box-sizing: border-box; 
 }
+
+.description::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
 
 .contactBtn {
   text-decoration: none;
