@@ -16,7 +16,7 @@
 .content {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  gap: 20px;
 }
 
 .imgContainer {
@@ -29,8 +29,10 @@
 }
 
 .certificateImage {
-  width: 60%;
-  height: auto;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block; 
 }
 
 
