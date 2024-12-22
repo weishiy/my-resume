@@ -12,6 +12,14 @@
       "imageSrc": "skills/database.png"
     },
     {
+      "title": "Power BI",
+      "imageSrc": "skills/power-bi.png"
+    },
+    {
+      "title": "Office 365",
+      "imageSrc": "skills/microsoft365.png"
+    },
+    {
       "title": "AWS",
       "imageSrc": "skills/web.png"
     },
@@ -30,9 +38,5 @@
     {
       "title": "React",
       "imageSrc": "skills/react.png"
-    },
-    {
-      "title": "Power BI",
-      "imageSrc": "skills/power-bi.png"
     }
   ]
