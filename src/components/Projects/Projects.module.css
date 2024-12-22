@@ -24,3 +24,16 @@
   gap: 15px;
   width: 100%;
 }
+
+.category {
+  margin-bottom: 40px;
+}
+
+.categoryTitle {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-secondary);
+  padding-bottom: 5px;
+}
