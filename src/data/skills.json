@@ -1,42 +1,42 @@
 [
     {
       "title": "Java",
-      "imageSrc": "skills/Java.png"
+      "imageSrc": "/skills/Java.png"
     },
     {
       "title": "Python",
-      "imageSrc": "skills/python.png"
+      "imageSrc": "/skills/python.png"
     },
     {
       "title": "SQL",
-      "imageSrc": "skills/database.png"
+      "imageSrc": "/skills/database.png"
     },
     {
       "title": "Power BI",
-      "imageSrc": "skills/powerbi.png"
+      "imageSrc": "/skills/powerbi.png"
     },
     {
       "title": "Office 365",
-      "imageSrc": "skills/microsoft365.png"
+      "imageSrc": "/skills/microsoft365.png"
     },
     {
       "title": "AWS",
-      "imageSrc": "skills/web.png"
+      "imageSrc": "/skills/web.png"
     },
     {
       "title": "R",
-      "imageSrc": "skills/letter-r.png"
+      "imageSrc": "/skills/letter-r.png"
     },
     {
       "title": "Figma",
-      "imageSrc": "skills/figma.png"
+      "imageSrc": "/skills/figma.png"
     },
     {
       "title": "Node",
-      "imageSrc": "skills/node.png"
+      "imageSrc": "/skills/node.png"
     },
     {
       "title": "React",
-      "imageSrc": "skills/react.png"
+      "imageSrc": "/skills/react.png"
     }
   ]
