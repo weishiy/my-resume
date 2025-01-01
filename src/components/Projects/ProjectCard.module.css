@@ -3,13 +3,13 @@
 .container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* 左对齐容器内容 */
+  align-items: flex-start; 
   border-radius: 10px;
   background: linear-gradient(180deg, #DEC69F -14.75%, #D2AE73 50.1%);
   box-shadow: 0 8px 10px rgba(240, 182, 76, 0.6);
   padding: 16px 20px;
   max-width: 280px;
-  height: auto; /* 动态高度 */
+  height: auto; 
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -30,24 +30,24 @@
 .title {
   font-size: 18px;
   font-weight: 700;
-  text-align: left; /* 左对齐标题 */
+  text-align: left; 
   color: var(--color-text);
   margin-bottom: 8px;
 }
 
 .description {
   margin-top: 6px;
-  font-size: 14px; /* 缩小字体 */
+  font-size: 14px; 
   font-weight: 400;
-  text-align: left; /* 左对齐描述 */
+  text-align: left; 
   color: var(--color-text);
-  overflow-y: auto; /* 支持滚动 */
+  overflow-y: auto; 
   width: 100%;
   word-wrap: break-word;
   word-break: break-word;
   box-sizing: border-box;
   line-height: 1.4;
-  max-height: 100px; /* 限制最大高度 */
+  max-height: 100px; 
 }
 
 .description::-webkit-scrollbar {
@@ -71,7 +71,7 @@
   flex-wrap: wrap;
   gap: 4px;
   list-style: none;
-  justify-content: flex-start; /* 左对齐技能标签 */
+  justify-content: flex-start; 
 }
 
 .skill {
@@ -79,16 +79,16 @@
   font-weight: 500;
   border-radius: 15px;
   background: var(--color-secondary);
-  padding: 4px 10px; /* 缩小内边距 */
+  padding: 4px 10px; 
   text-align: center;
   color: white;
 }
 
 .links {
   width: 100%;
-  margin-top: 12px; /* 缩小间距 */
+  margin-top: 12px; 
   display: flex;
-  justify-content: flex-start; /* 左对齐链接按钮 */
+  justify-content: flex-start; 
   gap: 10px;
 }
 
@@ -99,7 +99,7 @@
   font-weight: 600;
   border-radius: 8px;
   background: var(--color-primary);
-  padding: 6px 12px; /* 缩小内边距 */
+  padding: 6px 12px; 
   transition: background 0.2s ease, transform 0.2s ease;
 }
 
