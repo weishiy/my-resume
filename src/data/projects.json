@@ -3,6 +3,14 @@
     "category": "Data Science",
     "projects": [
       {
+        "title": "PwC Power BI Job Simulation",
+        "imageSrc": "projects/pwc.jpg",
+        "description": "Completed a job simulation to enhance Power BI skills, focusing on data visualization, client communication, and analytical problem-solving.",
+        "skills": ["Power BI", "Data Visualization", "Analytical Thinking"],
+        "demo": "https://github.com/weishiy/pwc_powerbi_job_simulations_on_forage/blob/3aaa1f9cd969023b52d57c4b0142c04436ec3083/pwc_task2.pdf",
+        "source": "https://github.com/weishiy/pwc_powerbi_job_simulations_on_forage"
+      },      
+      {
         "title": "Vaccine Predictor",
         "imageSrc": "projects/data.jpg",
         "description": "Built a model for predicting H1N1 vaccine uptake with high accuracy.",
@@ -73,8 +81,8 @@
         "imageSrc": "projects/web.jpg",
         "description": "Designed a prototype app to manage flatmate expenses.",
         "skills": ["Figma", "Prototyping", "User Testing"],
-        "demo": "https://www.example.com/flatmates_expense_manager_demo",
-        "source": "https://www.github.com/weishiy/flatmates_expense_manager"
+        "demo": "https://www.figma.com/proto/MqxqppiSqmISkpfdo2NA9w/project---part-1?node-id=178-3619&t=Geu1QvX0edLYITb7-1",
+        "source": "https://www.figma.com/proto/MqxqppiSqmISkpfdo2NA9w/project---part-1?node-id=178-3619&t=QUawkUttjtPz73LL-1"
       }
     ]
   }
