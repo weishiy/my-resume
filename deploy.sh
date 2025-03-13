@@ -1,11 +1,17 @@
 #!/bin/bash
 
-# Exit script on error
+# Exit script if any command fails
 set -e
 
 echo "🔄 Switching to main branch..."
 git checkout main
 git pull origin main
+
+# Check if node_modules exists, if not, install dependencies
+if [ ! -d "node_modules" ]; then
+  echo "📦 node_modules not found. Installing dependencies..."
+  npm install
+fi
 
 echo "⚙️ Running npm build..."
 npm run build
@@ -26,8 +32,8 @@ git checkout main -- dist
 mv dist/* .
 
 echo "🗑️ Removing dist directory..."
-rm -rf dist  # For Unix-based systems
-# Remove-Item -Recurse -Force dist  # Uncomment for PowerShell
+rm -rf dist  # Unix/macOS
+# Remove-Item -Recurse -Force dist  # Uncomment for Windows PowerShell
 
 echo "📤 Committing and pushing changes to b1..."
 git add .
