@@ -15,6 +15,10 @@ git push origin main
 # Run the build process
 npm run build
 
+# Commit build changes before switching branches
+git add dist/index.html
+git commit -m "Save build changes before switching to b1"
+
 # Switch to the b1 branch
 git checkout b1
 git pull origin b1
