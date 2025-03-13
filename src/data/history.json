@@ -8,19 +8,19 @@
       "imageSrc": "history/Cita.png"
     },
     {
-      "role": "SPCA Volunteer",
-      "organisation": "SPCA",
-      "startDate": "2022",
-      "endDate": "2022",
-      "experiences": ["Participated in fundraising events", "Raised funds and increased community awareness"],
-      "imageSrc": "history/spca.png"
-    },
-    {
       "role": "Staff",
       "organisation": "Sukura Sushi Shop",
       "startDate": "2020",
       "endDate": "2021",
       "experiences": ["Assisted customers and managed daily operations", "Enhanced customer satisfaction and teamwork"],
       "imageSrc": "history/sakura.png"
+    },
+    {
+      "role": "Customs Broker",
+      "organisation": "CargoSmart (subsidiary of OOCL)",
+      "startDate": "2016",
+      "endDate": "2018",
+      "experiences": ["Entered and verified import/export data for customs clearance.", "Ensured accuracy and compliance in shipment records."],
+      "imageSrc": "history/cargosmart.png"
     }
   ]

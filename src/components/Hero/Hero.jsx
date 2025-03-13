@@ -11,7 +11,7 @@ export const Hero = () => {
         <p className={styles.description}>
         I'm a recent graduate from Victoria University of Wellington, with a major in Computer Science and a minor in Data Science. I have experience in Java, Python, R, SQL,and AWS, and I'm currently learning React and Node.Js. Reach out to learn more!
         </p>
-        <a href="shiyan3114@gmail.com" className={styles.contactBtn}>
+        <a href="mailto:shiyan3114@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>

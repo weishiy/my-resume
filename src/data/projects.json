@@ -4,7 +4,7 @@
     "projects": [
       {
         "title": "PwC Power BI Job Simulation",
-        "imageSrc": "projects/pwc.jpg",
+        "imageSrc": "projects/pwc.png",
         "description": "Completed a job simulation to enhance Power BI skills, focusing on data visualization, client communication, and analytical problem-solving.",
         "skills": ["Power BI", "Data Visualization", "Analytical Thinking"],
         "demo": "https://github.com/weishiy/pwc_powerbi_job_simulations_on_forage/blob/3aaa1f9cd969023b52d57c4b0142c04436ec3083/pwc_task2.pdf",
@@ -12,7 +12,7 @@
       },      
       {
         "title": "Vaccine Predictor",
-        "imageSrc": "projects/data.jpg",
+        "imageSrc": "projects/data.png",
         "description": "Built a model for predicting H1N1 vaccine uptake with high accuracy.",
         "skills": ["Python", "R", "Scikit-learn"],
         "demo": "https://www.example.com/vaccine_predictor_demo",
@@ -20,7 +20,7 @@
       },
       {
         "title": "Fruit Classifier",
-        "imageSrc": "projects/data.jpg",
+        "imageSrc": "projects/fruit.png",
         "description": "Developed a deep learning model to classify fruit images.",
         "skills": ["Python", "CNN", "Deep Learning"],
         "demo": "https://www.example.com/fruit_classifier_demo",
@@ -28,7 +28,7 @@
       },
       {
         "title": "Linguistic Analysis",
-        "imageSrc": "projects/data.jpg",
+        "imageSrc": "projects/languages.png",
         "description": "Performed NLP to analyze and uncover linguistic patterns in text.",
         "skills": ["Python", "NLP", "Text Analysis"],
         "demo": "https://www.example.com/linguistic_analysis_demo",
@@ -41,7 +41,7 @@
     "projects": [
       {
         "title": "Music Guru",
-        "imageSrc": "projects/software.png",
+        "imageSrc": "projects/music.png",
         "description": "Built a Java app for music recommendations and playlist management using AWS and Docker.",
         "skills": ["Java", "AWS"],
         "demo": "https://www.example.com/music_guru_demo",
@@ -57,7 +57,7 @@
       },
       {
         "title": "Library System",
-        "imageSrc": "projects/software.png",
+        "imageSrc": "projects/library.png",
         "description": "Developed a system to manage books, authors, and customers.",
         "skills": ["Java", "PostgreSQL", "JDBC"],
         "demo": "https://www.example.com/library_system_demo",
@@ -70,7 +70,7 @@
     "projects": [
       {
         "title": "My Personal Resume",
-        "imageSrc": "projects/web.jpg",
+        "imageSrc": "projects/web.png",
         "description": "Developed and deployed a personal resume website using React and Vite, featuring sections for projects, skills, experience, and contact.",
         "skills": ["React", "CSS", "Vite", "GitHub Pages"],
         "demo": "https://weishiy.github.io/my-resume/",
@@ -78,7 +78,7 @@
       },
       {
         "title": "Flatmates Expense Manager",
-        "imageSrc": "projects/web.jpg",
+        "imageSrc": "projects/flatmates.png",
         "description": "Designed a prototype app to manage flatmate expenses.",
         "skills": ["Figma", "Prototyping", "User Testing"],
         "demo": "https://www.figma.com/proto/MqxqppiSqmISkpfdo2NA9w/project---part-1?node-id=178-3619&t=Geu1QvX0edLYITb7-1",
