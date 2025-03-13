@@ -1,40 +1,40 @@
 #!/bin/bash
 
-# Exit script if any command fails
+# Exit script on error
 set -e
 
-# Switch to main branch
+echo "🔄 Switching to main branch..."
 git checkout main
 git pull origin main
 
-# Commit all changes in main
-git add .
-git commit -m "Update main branch"
-git push origin main
-
-# Run build process
+echo "⚙️ Running npm build..."
 npm run build
 
-# Ensure all build changes are committed before switching branches
-git add dist
-git commit -m "Save build changes before switching to b1"
-
-# Switch to b1 branch
-git checkout b1
-git pull origin b1
-
-# Remove all old files in b1 branch (except .git)
-find . -mindepth 1 ! -regex '^./\.git\(/.*\)?' -delete
-
-# Copy new build files from dist to the root of b1
-cp -r dist/* .
-
-# Ensure all new files are staged and committed
+echo "📤 Committing changes to main..."
 git add .
-git commit -m "Deploy GitHub Pages"
+git commit -m "Update main branch" || echo "✅ No changes to commit in main"
+git push origin main
+
+echo "🔄 Switching to b1 branch..."
+git checkout b1
+
+echo "🧹 Removing all existing files in b1..."
+git rm -rf .
+
+echo "📥 Restoring dist from main..."
+git checkout main -- dist
+mv dist/* .
+
+echo "🗑️ Removing dist directory..."
+rm -rf dist  # For Unix-based systems
+# Remove-Item -Recurse -Force dist  # Uncomment for PowerShell
+
+echo "📤 Committing and pushing changes to b1..."
+git add .
+git commit -m "chore: update b1 with dist content" || echo "✅ No changes to commit in b1"
 git push origin b1
 
-# Switch back to main branch
+echo "🔄 Switching back to main branch..."
 git checkout main
 
-echo "✅ Deployment completed! GitHub Pages updated."
+echo "🎉✅ Deployment completed! GitHub Pages updated."
