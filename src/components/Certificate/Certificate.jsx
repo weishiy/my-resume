@@ -21,6 +21,14 @@ export const Certificate = () => {
       imgAlt: "Microsoft Fabric Certificate",
       url: "https://learn.microsoft.com/en-nz/users/shiyanwei-7293/credentials/22805b75d6b4bf3d?ref=https%3A%2F%2Fwww.linkedin.com%2F",
     },
+    {
+      title: "Microsoft Azure AI Fundamentals",
+      issuer: "Microsoft",
+      issued: "Issued Dec 2025",
+      imgSrc: getImageUrl("certificate/microsoft-certified-fundamentals-badge.png"),
+      imgAlt: "Azure AI Fundamental",
+      url: "https://learn.microsoft.com/api/credentials/share/en-us/ShiyanWei-7293/634B2175C9163C04?sharingId=9016C30BF0E898CE",
+    },
   ];
 
   return (
