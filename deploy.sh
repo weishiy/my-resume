@@ -1,46 +1,35 @@
-#!/bin/bash
-
-# Exit script if any command fails
+#!/usr/bin/env bash
 set -e
 
-echo "🔄 Switching to main branch..."
+echo "🧭 Ensure on main"
 git checkout main
-git pull origin main
 
-# Check if node_modules exists, if not, install dependencies
-if [ ! -d "node_modules" ]; then
-  echo "📦 node_modules not found. Installing dependencies..."
-  npm install
-fi
-
-echo "⚙️ Running npm build..."
+echo "📦 Build"
+npm install
 npm run build
 
-echo "📤 Committing changes to main..."
-git add .
-git commit -m "Update main branch" || echo "✅ No changes to commit in main"
-git push origin main
-
-echo "🔄 Switching to b1 branch..."
+echo "🔀 Switch to b1"
 git checkout b1
 
-echo "🧹 Removing all existing files in b1..."
-git rm -rf .
+echo "🧹 Clean tracked files"
+# Only remove tracked files to avoid Windows file lock issues
+git rm -r --cached . >/dev/null 2>&1 || true
+git ls-files -z | xargs -0 rm -f 2>/dev/null || true
 
-echo "📥 Restoring dist from main..."
+# Fallback: try to clean the root directory (excluding .git)
+rm -rf ./* .[^.]* 2>/dev/null || true
+
+echo "📤 Copy dist to root"
 git checkout main -- dist
+shopt -s dotglob
 mv dist/* .
+rm -rf dist
 
-echo "🗑️ Removing dist directory..."
-rm -rf dist  # Unix/macOS
-# Remove-Item -Recurse -Force dist  # Uncomment for Windows PowerShell
-
-echo "📤 Committing and pushing changes to b1..."
+echo "✅ Commit & push"
 git add .
-git commit -m "chore: update b1 with dist content" || echo "✅ No changes to commit in b1"
+git commit -m "deploy: update b1 with latest dist"
 git push origin b1
 
-echo "🔄 Switching back to main branch..."
+echo "↩️ Back to main"
 git checkout main
-
-echo "🎉✅ Deployment completed! GitHub Pages updated."
+echo "🎉 Done"
