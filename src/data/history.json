@@ -1,26 +1,42 @@
 [
     {
+      "role": "IT Support Volunteer",
+      "organisation": "Focus Futures ",
+      "startDate": "2025",
+      "endDate": "Present",
+      "experiences": ["Handled basic hardware and network issues",
+                      "Created simple how-to guides to reduce repeat tickets",
+                      "Logged tickets and status updates through to closure"],
+      "imageSrc": "history/foucusfutures.png"
+    },
+    {
       "role": "CITA Volunteer",
       "organisation": "CITA Association",
       "startDate": "2023",
       "endDate": "Present",
-      "experiences": ["Coordinated mentorship activities", "Arranged meetings and managed groups", "Collected feedback to improve the program"],
+      "experiences": ["Coordinated mentorship activities", 
+                      "Arranged meetings and managed groups", 
+                      "Collected feedback to improve the program"],
       "imageSrc": "history/Cita.png"
     },
     {
-      "role": "Staff",
-      "organisation": "Sukura Sushi Shop",
-      "startDate": "2020",
-      "endDate": "2021",
-      "experiences": ["Assisted customers and managed daily operations", "Enhanced customer satisfaction and teamwork"],
-      "imageSrc": "history/sakura.png"
+      "role": "Team Member",
+      "organisation": "Bunnings",
+      "startDate": "2025",
+      "endDate": "Present",
+      "experiences": [ "Assisted customers in finding products and provided friendly service",
+                       "Restocked shelves and maintained store tidiness and safety standards",
+                       "Supported team tasks and handled basic POS and stock checks"],
+      "imageSrc": "history/bunnings.png"
     },
     {
-      "role": "Customs Broker",
-      "organisation": "CargoSmart (subsidiary of OOCL)",
-      "startDate": "2016",
-      "endDate": "2018",
-      "experiences": ["Entered and verified import/export data for customs clearance.", "Ensured accuracy and compliance in shipment records."],
-      "imageSrc": "history/cargosmart.png"
+      "role": "Online Assistant (Casual)",
+      "organisation": "Woolworths Crofton Downs",
+      "startDate": "2025",
+      "endDate": "Present",
+      "experiences": ["Picked and packed online grocery orders accurately and efficiently",
+                      "Handled substitutions and ensured good customer experience",
+                      "Maintained stock presentation and assisted with general store duties"],
+      "imageSrc": "history/woolworths.png"
     }
   ]
