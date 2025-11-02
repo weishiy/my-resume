@@ -28,15 +28,5 @@
                        "Restocked shelves and maintained store tidiness and safety standards",
                        "Supported team tasks and handled basic POS and stock checks"],
       "imageSrc": "history/bunnings.png"
-    },
-    {
-      "role": "Online Assistant (Casual)",
-      "organisation": "Woolworths Crofton Downs",
-      "startDate": "2025",
-      "endDate": "Present",
-      "experiences": ["Picked and packed online grocery orders accurately and efficiently",
-                      "Handled substitutions and ensured good customer experience",
-                      "Maintained stock presentation and assisted with general store duties"],
-      "imageSrc": "history/woolworths.png"
     }
   ]
